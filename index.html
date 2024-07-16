@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+    <h1>Azubi Login Form</h1>
+    <form class="login-form" action="process.php" method="POST">
+            <div>
+                <label for="uname"><b>Username:</b></label>
+                <input type="text" name="uname" placeholder="Username" required>
+            </div>
+            <div>
+                <label for="psw"><b>Password:</b></label>
+                <input type="password" name="psw" placeholder="Password" required>
+            </div>
+            <button type="submit">Login</button>
+        </div>
+<a href="info.php">Check PHP Info</a> 
+    </form>
+</body>
+</html>
