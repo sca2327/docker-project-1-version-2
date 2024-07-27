@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Check if the submitted credentials match the expected credentials
     if ($username === $expected_username && $password === $expected_password) {
-        echo "Login successful. Welcome, " . htmlspecialchars($username) . "!";
+        echo "Login successful. Welcome, " . $username . "!";
     } else {
         echo "Invalid username or password. Please try again.";
     }
